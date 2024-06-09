@@ -1,0 +1,270 @@
+@font-face {
+    font-family: format;
+    src: url(techno_hideo.ttf);
+}
+*{   
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    text-align: center;
+    padding-top: 50px;
+    font-family: format;
+    background-color: rgb(79, 0, 206);
+}
+body{
+    background-color: rgb(79, 0, 206);
+    color: yellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header a{
+    color: yellow;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 50px;
+    padding: 15px;
+    transition-duration: 300ms;
+    background-color:rgb(79, 0, 206);
+    border-radius: 3%;
+    border: 2px solid black;
+    border-color: yellow;
+}
+nav{
+    word-spacing: 120px;
+    background-color: rgb(79, 0, 206);
+    padding-bottom: 30px;
+    
+}
+ nav a:hover{
+    color: rgb(79, 0, 206);
+    background-color: yellow;
+    transition-duration: 300ms;
+}
+.descrizione1{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.596);
+    padding: 40px;
+}
+.corto{
+    background-color: rgba(0, 0, 0, 0.555);
+    color: white;
+    display: block;
+    display: inline-block;
+    padding: 35px;
+    border-radius: 3%;
+    border: 2px solid black;
+    border-color: yellow;
+    transition-duration: 500ms;
+}
+.medio{
+    background-color: rgba(0, 0, 0, 0.555);
+    color: white;
+    display: block;
+    display: inline-block;
+    padding: 35px;
+    border-radius: 3%;
+    border: 2px solid black;
+    border-color: yellow;
+    transition-duration: 300ms;
+}
+.lungo{
+    background-color: rgba(0, 0, 0, 0.555);
+    color: white;
+    display: block;
+    display: inline-block;
+    padding: 35px;
+    border-radius: 3%;
+    border: 2px solid black;
+    border-color: yellow;
+    transition-duration: 300ms;
+}
+.fortnite{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 270px;
+    margin-top: 110px;
+}
+.corto:hover{
+    padding: 50px;
+    transition-duration: 200ms;
+}
+.medio:hover{
+    padding: 50px;
+    transition-duration: 200ms;
+}
+.lungo:hover{
+    padding: 50px;
+    transition-duration: 200ms;
+}
+.corto a{
+    text-decoration: none;
+    color: white;
+}
+.medio a{
+    text-decoration: none;
+    color: white;
+}
+.lungo a{
+    text-decoration: none;
+    color: white;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #ccc;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(13, 0, 128);
+    display: flex;
+}
+footer a{
+    text-decoration: none;
+    color: yellow;
+}
+.descrizione1 h1{
+    height: 200px;
+    width: 480px;
+    margin-top: 37px;
+}
+.descrizione2{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.596);
+    padding: 40px;
+}
+.descrizione2 h1{
+    height: 200px;
+    width: 480px;
+    margin-top: 37px;
+}
+.descrizione3{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.596);
+    padding: 40px;
+    padding-bottom: 100px;
+}
+.descrizione3 h1{
+    height: 200px;
+    width: 480px;
+    margin-top: 112px;
+}
+.registrazione{
+    background-color: rgba(0, 0, 0, 0.555);
+    padding: 50px;
+    margin-top: 40px;
+    padding-top: 60px;
+    padding-bottom: 200px;
+}
+.descrizione3 a{
+    color: yellow;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 100px;
+    padding: 25px;
+    transition-duration: 300ms;
+    background-color:rgb(79, 0, 206);
+    border-radius: 3%;
+    border: 2px solid black;
+    border-color: yellow;
+    width: 90px;
+    margin-left: 830px;
+    margin-bottom: 50px;
+}
+.descrizione3 a:hover{
+    color: rgb(79, 0, 206);
+    background-color: yellow;
+    transition-duration: 300ms;
+}
+.contact{
+    background-color: rgba(0, 0, 0, 0.555);
+    padding: 50px;
+    margin-top: 40px;
+    padding-top: 60px;
+    padding-bottom: 200px;
+}
+.registrazione a{
+    color: yellow;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 80px;
+    padding: 15px;
+    transition-duration: 300ms;
+    background-color:rgb(79, 0, 206);
+    border-radius: 3%;
+    border: 2px solid black;
+    border-color: yellow;
+}
+.registrazione a:hover{
+    color: rgb(79, 0, 206);
+    background-color: yellow;
+    transition-duration: 300ms;
+}
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-left: 620px;
+}
+.social-icons a {
+    text-decoration: none;
+    color: inherit;
+}
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+footer p{
+    margin-left: 790px;
+}
+.campo1 a{
+    color: yellow;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 80px;
+    padding: 15px;
+    transition-duration: 300ms;
+    background-color:rgb(79, 0, 206);
+    border-radius: 3%;
+    border: 2px solid black;
+    border-color: yellow;
+}
+.campo1 a:hover{
+    color: rgb(79, 0, 206);
+    background-color: yellow;
+    transition-duration: 300ms;
+}
+.cont a{
+    text-decoration: none;
+    color: yellow;
+}
+.cont{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.piano a{
+    color: yellow;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 80px;
+    padding: 15px;
+    transition-duration: 300ms;
+    background-color:rgb(79, 0, 206);
+    border-radius: 3%;
+    border: 2px solid black;
+    border-color: yellow;
+}
+.piano a:hover{
+    color: rgb(79, 0, 206);
+    background-color: yellow;
+    transition-duration: 300ms;
+}
